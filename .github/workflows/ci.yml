@@ -15,6 +15,11 @@ jobs:
         run: |
           cd backend
           npm ci
-      - name: Run tests (none yet)
+      - name: Start backend and run integration tests
         run: |
-          echo "No tests defined yet"
+          cd backend
+          # start server in background
+          node index.js &
+          # give it a moment to start
+          sleep 2
+          npm run test:integration

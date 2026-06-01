@@ -1,0 +1,2 @@
+rootProject.name = 'AndroitPhone'
+include ':app'

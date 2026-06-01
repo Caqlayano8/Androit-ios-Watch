@@ -1,0 +1,13 @@
+{
+  "pairings": {},
+  "devices": {
+    "device-A": {
+      "ownerId": "owner1",
+      "pairedAt": 1780309624383
+    },
+    "device-B": {
+      "ownerId": "owner1",
+      "pairedAt": 1780309624389
+    }
+  }
+}
