@@ -1,0 +1,11 @@
+node_modules/
+.DS_Store
+.env
+dist/
+build/
+*.iml
+.gradle/
+.idea/
+*.keystore
+*.p12
+*.mobileprovision
